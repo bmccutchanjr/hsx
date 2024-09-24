@@ -1,8 +1,8 @@
 //  This is the entry point for several utilitoes to help me manage my HSX.com account.  These are stand-alone
-//	applications and I'm not planning to share them (at least not now).  There's nothing that requires the
+//	applications and I'm not planning to share them (at least not now).  There's nothing about them that requires the
 //	functionality of a server, except CORS.  Because these utilities will scrape information from vatious HSX pages,
-//	I need a server.  The browser won't let me fetch paged from HSX because of CORS issues.  CORS headers are
-//	required and I can only get those from an HTTP server.
+//	I need a server.  If these utilites are loaded from disk, the browser won't let me fetch paged from HSX because of
+//	CORS issues.  CORS headers are required and I can only get those from an HTTP server.
 
 //	01	Removing standard code that I don't need at the moment
 
