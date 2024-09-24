@@ -1,0 +1,24 @@
+{
+  "name": "hsx",
+  "version": "1.0.0",
+  "description": "HSX is a collection a tools intended for use with the on-line game HSX.com.  Currently it consists of three utility functions, each of wich is implemented as a web page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmccutchanjr/hsx.git"
+  },
+  "author": "Bill McCutchan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmccutchanjr/hsx/issues"
+  },
+  "homepage": "https://github.com/bmccutchanjr/hsx#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.21.0"
+  }
+}
