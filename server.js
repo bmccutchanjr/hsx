@@ -55,7 +55,7 @@ const server = app.listen (PORT, () =>
 
 	if (server.listening)
 	{
-		console.log (chalk.green("The PAWS server is up and running"));
+		console.log (chalk.green("The server is up and running"));
 		console.log (chalk.green("Listening on port " + PORT));
 	}
 });
